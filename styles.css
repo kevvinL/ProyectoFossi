@@ -1,0 +1,138 @@
+/* Reseteo básico de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para el sidebar */
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: #2f3542;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background-color: #57606f;
+}
+
+/* Estilos para el contenido principal */
+.main-content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header input {
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilos de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f1f1f1;
+}
+
+table tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* Estilos de los botones */
+.btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.modificar {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.eliminar {
+    background-color: #f44336;
+    color: white;
+}
+
+.modificar:hover {
+    background-color: #45a049;
+}
+
+.eliminar:hover {
+    background-color: #e53935;
+}
+
+/* Estilo para la bienvenida y el botón de salir */
+.bienvenida {
+    margin-bottom: 20px;
+}
+
+.bienvenida p {
+    font-size: 18px;
+}
+
+.bienvenida .btn.salir {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.bienvenida .btn.salir:hover {
+    background-color: #555;
+}
